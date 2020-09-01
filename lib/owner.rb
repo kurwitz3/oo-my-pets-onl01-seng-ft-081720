@@ -49,7 +49,7 @@ def buy_cat(name)
   Cat.all.each do |z|
  if  z.name == name
    z.owner == self
-     binding.pry  
+      cats << z  
 end
 end
 
