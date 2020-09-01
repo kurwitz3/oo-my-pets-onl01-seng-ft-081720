@@ -53,7 +53,7 @@ def buy_dog(name)
 end 
  def walk_dogs 
    dogs.each do |a|
-     binding.pry 
+     a.mood = "happy"
  end 
  end
   
