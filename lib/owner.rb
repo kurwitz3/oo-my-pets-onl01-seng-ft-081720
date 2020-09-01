@@ -64,12 +64,12 @@ end
  def sell_pets 
   cats.each do |a|
     a.mood = "nervous"
+    cats.clear 
     dogs.each do |b|
       b.mood = "nervous"
-      
+      dogs.clear 
     end 
   end 
- reset_all 
  end
    
   
