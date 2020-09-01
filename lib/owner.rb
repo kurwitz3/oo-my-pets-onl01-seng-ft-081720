@@ -62,7 +62,13 @@ end
    end
  end
  def sell_pets 
- binding.pry 
+  cats.each do |a|
+    a.mood = "nervous"
+    dogs.each do |b|
+      b.mood = "nervous"
+      self.reset_all 
+    end 
+  end 
  
  end
    
