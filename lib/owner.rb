@@ -70,7 +70,8 @@ end
       dogs.clear 
     end 
   end 
-  
+  cats 
+  dogs 
  end
    
   
