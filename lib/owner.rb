@@ -61,6 +61,8 @@ end
      a.mood = "happy"
    end
  end
+ def sell_pets 
+   
   
 
 
