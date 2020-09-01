@@ -76,7 +76,8 @@ end
   end 
  end
  def list_pets 
- 
+ x = cats.count 
+ puts 
  
  end 
    
