@@ -55,7 +55,7 @@ end
    dogs.each do |a|
      binding.pry 
  end 
- 
+ end
   
 
 
