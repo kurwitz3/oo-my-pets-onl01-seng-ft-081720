@@ -45,12 +45,14 @@ new
 end
 
 def buy_cat(name)
+  new = []
   Cat.all.each do |z|
  if  z.name == name
+   new << z
        
 end
 end
-cats
+new
 end  
   
 
