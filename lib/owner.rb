@@ -57,7 +57,7 @@ end
  end 
  def feed_cats 
    cats.each do |a|
-     a.mood = "happy "
+     a.mood = "happy"
    end
  end
   
