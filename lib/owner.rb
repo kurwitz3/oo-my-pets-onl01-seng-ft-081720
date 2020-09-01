@@ -49,10 +49,10 @@ def buy_cat(name)
   Cat.all.each do |z|
  if  z.name == name
    z.owner == self
-      cats << z  
+      new << z  
 end
 end
-cats
+
 end  
   
 
