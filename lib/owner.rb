@@ -50,7 +50,6 @@ end
 
 def buy_dog 
   
-  
 
 
 end
