@@ -50,6 +50,7 @@ def buy_cat(name)
       cats << z 
 end
 end
+cats
 end  
   
 
