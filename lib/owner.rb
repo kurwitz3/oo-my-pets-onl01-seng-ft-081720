@@ -69,8 +69,9 @@ end
     dogs.each do |b|
       b.mood = "nervous"
        dogs.each do |x|
-      x.owner = nil 
-      dogs.clear 
+      x.owner = nil  
+    end 
+  end
     end 
   end 
  end
