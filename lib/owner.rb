@@ -48,7 +48,7 @@ def buy_cat(name)
   new = []
   Cat.all.each do |z|
  if  z.name == name
-   new << z
+   z.owner == self
        
 end
 end
