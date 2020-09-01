@@ -47,7 +47,7 @@ end
 def buy_cat(name)
   Cat.all.each do |z|
  if  z.name == name
-      cats << z 
+       
 end
 end
 cats
