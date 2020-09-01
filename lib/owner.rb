@@ -66,7 +66,7 @@ end
     a.mood = "nervous"
     dogs.each do |b|
       b.mood = "nervous"
-      self.reset_all 
+      reset_all 
     end 
   end 
  
