@@ -76,8 +76,9 @@ end
   end 
  end
  def list_pets 
+   z = dogs.count 
  x = cats.count 
- puts 
+ puts "I have #{z} dog(s), and #{x} cat(s)."
  
  end 
    
